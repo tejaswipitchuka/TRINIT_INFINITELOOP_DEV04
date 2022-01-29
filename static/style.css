@@ -1,0 +1,125 @@
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: #fff;
+}
+  
+p {
+	color: #b3b3b3;
+	font-weight: 300;
+}
+  
+h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "Roboto", sans-serif;
+}
+  
+a{
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+}
+a:hover {
+	  text-decoration: none !important;
+}
+  
+.content {
+	padding: 7rem 0;
+}
+  
+h2 {
+	font-size: 20px;
+}
+  
+.half, .half .container > .row {
+	height: 100vh;
+	min-height: 700px;
+}
+  
+@media (max-width: 991.98px) {
+	.half .bg {
+	  height: 200px; 
+	}
+}
+  
+.half .contents {
+	background: #f6f7fc;
+}
+  
+.half .contents, .half .bg {
+	width: 50%;
+}
+@media (max-width: 1199.98px) {
+	  .half .contents, .half .bg {
+		width: 100%; } }
+	.half .contents .form-control, .half .bg .form-control {
+	  border: none;
+	  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	  border-radius: 4px;
+	  height: 54px;
+	  background: #fff; }
+	  .half .contents .form-control:active, .half .contents .form-control:focus, .half .bg .form-control:active, .half .bg .form-control:focus {
+		outline: none;
+		-webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1); }
+  
+  .half .bg {
+	background-size: cover;
+	background-position: center; }
+  
+  .half a {
+	color: #888;
+	text-decoration: underline; }
+  
+  .half .btn {
+	height: 54px;
+	padding-left: 30px;
+	padding-right: 30px; }
+  
+  .half .forgot-pass {
+	position: relative;
+	top: 2px;
+	font-size: 14px; }
+
+  
+    .main{
+        display:flex;
+        justify-content:space-around;
+        position:relative;
+    }
+    
+    .wave {
+        animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+        animation-duration: 2.5s;        /* Change to speed up or slow down */
+        animation-iteration-count: infinite;  /* Never stop waving :) */
+        transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+        display: inline-block;
+      }
+      
+      @keyframes wave-animation {
+          0% { transform: rotate( 0.0deg) }
+         10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+         20% { transform: rotate(-8.0deg) }
+         30% { transform: rotate(14.0deg) }
+         40% { transform: rotate(-4.0deg) }
+         50% { transform: rotate(10.0deg) }
+         60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+        100% { transform: rotate( 0.0deg) }
+      }
+
+    .mainHead
+    {
+        font-size:40px;
+    }
+    .mainImage
+    {
+        margin-top:5em;
+    }
+    .subHead1
+    {
+        font-size: 25px;
+    }
+    .subHead2
+    {
+        font-size:20px;
+    }
