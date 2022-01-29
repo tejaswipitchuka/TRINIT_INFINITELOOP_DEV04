@@ -13,22 +13,31 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 <body>
-<section id="login">
-        <div class="log">
-            <div class="row">
-                <div class="col login-left">
-                    <form>
-                        <div class="form-group">
-                            <h2>Enter the email</h2>
-                            <input type="email" name="user" class="form-control" required>
-                        </div>
-                        <button type=submit class="btn btn-primary">Submit</button>
-                    </form>
-                </div>                
+    <div class="login-root">
+        <br><br><br><br><br>
+        <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+          <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center"><br><br><br><br><br><br><br><br>
+          </div>
+          <div class="formbg-outer">
+            <div class="formbg">
+              <div class="formbg-inner padding-horizontal--48">
+                <h3>Enter the email id</h3>
+                <form id="stripe-login" method="POST" action="/home">
+                  <div class="field padding-bottom--24">
+                    <label for="email"></label>
+                    <input type="email" name="email">
+                  </div>
+                  <div class="field padding-bottom--24">
+                    <input type="submit" name="submit" value="Continue">
+                  </div>
+                  <p id="demo1">{{value}}</p>
+                </form>
+              </div>
             </div>
         </div>
-    </section>
+      </div>
 </body>
 </html>
