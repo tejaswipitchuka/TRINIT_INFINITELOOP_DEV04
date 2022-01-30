@@ -1,5 +1,5 @@
 # TRINIT_INFINITELOOP_DEV04
-                           Scrap It to get it!
+                           INfinder
                            
                            
 Steps to run the application:
