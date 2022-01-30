@@ -1,5 +1,13 @@
 # TRINIT_INFINITELOOP_DEV04
                            Scrap It to get it!
+                           
+                           
+Steps to run the application:
+1) Download/Clone the repo
+2) Open cmd with the path of the repo
+3) Run the command "python app.py" 
+4) Copy the sever link and run on the browser
+
 Introduction:
 The problem statement is to develop an application that takes the email id as input and displays the URL to the respective LinkedIn account as output on the screen. 
 Once our web application is opened, to enter the email id “Get started” button should be clicked. This navigates to another page where the email id should be entered with proper syntax. If in case you have entered a wrong email id then there comes a popup validation saying “You have entered a Wrong mail id”. Once the correct email id is entered, it should be submitted. On submission, it displays the LinkedIn Profile Link associated with the entered email id. 
