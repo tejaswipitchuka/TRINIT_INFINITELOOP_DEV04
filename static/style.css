@@ -110,16 +110,20 @@ h2 {
     .mainHead
     {
         font-size:40px;
+        color: black;
     }
     .mainImage
     {
         margin-top:5em;
+        color: black;
     }
     .subHead1
     {
         font-size: 25px;
+        color: black;
     }
     .subHead2
     {
         font-size:20px;
+        color: black;
     }
